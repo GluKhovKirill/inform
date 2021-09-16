@@ -1,9 +1,8 @@
 def pwr(base, pw=5):
-    flag = pw>0
     ans = 1
     
     for i in range(abs(pw)):
-        ans = ans*base if flag else ans/base
+        ans = ans*base if (pw>0) else ans/base
         
     return ans
 
