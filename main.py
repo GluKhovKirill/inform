@@ -7,4 +7,4 @@ def pwr(base, pw=5):
 
 
 if __name__ == "__main__":
-    print(pwr(2, 3))
+    print(pwr(4, 5))
