@@ -1,4 +1,6 @@
 def is_palindrome(string):
+    for i in range(len(string)):
+        print(f"{''if i>9 else '0'}{i}: {string[i]} AND {string[-1-i]}")
     return string == string[::-1]
 
 
